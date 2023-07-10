@@ -29,7 +29,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #url: "https://www.lukecharters.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  lukecharters
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: contrast
 search: true
 
 # Build settings
@@ -75,34 +75,25 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Luke Charters"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lukecharters/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/lukecharters"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lukecharters/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/lukecharters"
 
 defaults:
   # _posts
@@ -130,3 +121,15 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+#comments config for giscus
+  repository: "lukecharters/lukecharters.com"
+  comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : "R_kgDOJhobMA"
+    category_name        : "Announcements"
+    category_id          : "DIC_kwDOJhobMM4CXyc0"
+    discussion_term      : "pathname"
+    reactions_enabled    : "1"
+    theme                : "light"
