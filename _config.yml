@@ -77,14 +77,14 @@ plugins:
 #comments config for giscus
   repository: "lukecharters/lukecharters.com"
   comments:
-  provider: "giscus"
-  giscus:
-    repo_id              : "R_kgDOJhobMA"
-    category_name        : "Announcements"
-    category_id          : "DIC_kwDOJhobMM4CXyc0"
-    discussion_term      : "pathname"
-    reactions_enabled    : "1"
-    theme                : "light"
+    provider: "giscus"
+    giscus:
+      repo_id              : "R_kgDOJhobMA"
+      category_name        : "Announcements"
+      category_id          : "DIC_kwDOJhobMM4CXyc0"
+      discussion_term      : "pathname"
+      reactions_enabled    : "1"
+      theme                : "light"
 
 author:
   name   : "Luke Charters"
