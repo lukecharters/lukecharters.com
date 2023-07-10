@@ -74,6 +74,18 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+#comments config for giscus
+  repository: "lukecharters/lukecharters.com"
+  comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : "R_kgDOJhobMA"
+    category_name        : "Announcements"
+    category_id          : "DIC_kwDOJhobMM4CXyc0"
+    discussion_term      : "pathname"
+    reactions_enabled    : "1"
+    theme                : "light"
+
 author:
   name   : "Luke Charters"
   avatar : "/assets/images/bio-photo.jpg"
@@ -102,10 +114,10 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -122,14 +134,3 @@ tag_archive:
   type: liquid
   path: /tags/
 
-#comments config for giscus
-  repository: "lukecharters/lukecharters.com"
-  comments:
-  provider: "giscus"
-  giscus:
-    repo_id              : "R_kgDOJhobMA"
-    category_name        : "Announcements"
-    category_id          : "DIC_kwDOJhobMM4CXyc0"
-    discussion_term      : "pathname"
-    reactions_enabled    : "1"
-    theme                : "light"
