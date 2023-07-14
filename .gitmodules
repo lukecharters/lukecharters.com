@@ -1,7 +1,0 @@
-[submodule "quickstart/themes/ananke"]
-	path = quickstart/themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-[submodule "themes/congo"]
-	path = themes/congo
-	url = https://github.com/jpanther/congo.git
-	branch = stable
