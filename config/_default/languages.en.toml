@@ -1,0 +1,29 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+
+title = "Congo"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+[params]
+  isoCode = "en"
+  displayName = "EN"
+  rtl = false
+
+  dateFormat = "2 January 2006"
+
+  # mainSections = ["section1", "section2"]
+  # description = "My awesome website"
+
+[author]
+  # name = "Luke Charters"
+  # image = "img/author.jpg"
+  # headline = "Sysadmin / Macadmin / Dadmin"
+  # bio = "A little bit about you"
+  # links = [
+  #   { email = "mailto:hello@your_domain.com" },
+  #   { link = "https://link-to-some-website.com/" },
+  #   { github = "https://github.com/username" },
+  #   { linkedin = "https://linkedin.com/in/username" },
+  #   { slack = "https://macadmins.slack.com/team/UDNJ1F544" },
+  # ]
