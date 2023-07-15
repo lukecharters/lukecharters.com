@@ -2,7 +2,7 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 
-title = "Congo"
+title = "Luke Charters"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
@@ -16,14 +16,14 @@ title = "Congo"
   # description = "My awesome website"
 
 [author]
-  # name = "Luke Charters"
+  name = "Luke Charters"
   # image = "img/author.jpg"
-  # headline = "Sysadmin / Macadmin / Dadmin"
+  headline = "Sysadmin / Macadmin / Dadmin"
   # bio = "A little bit about you"
-  # links = [
-  #   { email = "mailto:hello@your_domain.com" },
-  #   { link = "https://link-to-some-website.com/" },
-  #   { github = "https://github.com/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
-  #   { slack = "https://macadmins.slack.com/team/UDNJ1F544" },
-  # ]
+  links = [
+  # { email = "mailto:hello@your_domain.com" },
+  # { link = "https://link-to-some-website.com/" },
+  { github = "https://github.com/lukecharters" },
+  { linkedin = "https://linkedin.com/in/lukecharters" },
+  { slack = "https://macadmins.slack.com/team/UDNJ1F544" },
+  ]
