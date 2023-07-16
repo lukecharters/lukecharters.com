@@ -17,9 +17,9 @@ title = "Luke Charters"
 
 [author]
   name = "Luke Charters"
-  # image = "img/author.jpg"
+  image = "img/thumbs.png"
   headline = "Sysadmin / Macadmin / Dadmin"
-  # bio = "A little bit about you"
+  # bio = "Systems Engineer who needs to finish writing this bio."
   links = [
   # { email = "mailto:hello@your_domain.com" },
   # { link = "https://link-to-some-website.com/" },
