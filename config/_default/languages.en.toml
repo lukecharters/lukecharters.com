@@ -1,21 +1,19 @@
 languageCode = "en"
 languageName = "English"
+languageDirection = "ltr"
 weight = 1
 
 title = "Luke Charters"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
-  isoCode = "en"
-  displayName = "EN"
-  rtl = false
 
   dateFormat = "2 January 2006"
 
   # mainSections = ["section1", "section2"]
   # description = "My awesome website"
 
-[author]
+[params.author]
   name = "Luke Charters"
   image = "img/thumbs.png"
   headline = "Sysadmin / Macadmin / Dadmin"
