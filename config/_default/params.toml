@@ -12,9 +12,12 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 enableImageLazyLoading = true
+enableQuicklink = true
 
 # robots = ""
 fingerprintAlgorithm = "sha256"
+
+
 
 [header]
   layout = "basic" # valid options: basic, hamburger, hybrid, custom
