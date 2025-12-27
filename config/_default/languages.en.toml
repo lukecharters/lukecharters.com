@@ -23,5 +23,5 @@ title = "Luke Charters"
   # { link = "https://link-to-some-website.com/" },
   { github = "https://github.com/lukecharters" },
   { linkedin = "https://linkedin.com/in/lukecharters" },
-  { slack = "https://macadmins.slack.com/team/UDNJ1F544" },
+  { slack = "https://macadmins.slack.com/team/UDNJ1F544" }
   ]
