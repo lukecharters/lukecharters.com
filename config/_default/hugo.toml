@@ -27,3 +27,7 @@ theme = "congo"
 [services]
   [services.x]
     disableInlineCSS = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
